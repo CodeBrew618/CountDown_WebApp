@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(209, 244, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 70px;
+    padding-top: 70px;
+    font-style: italic;
+    color: rgb(255, 166, 234);
+    font-size: 90px;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: auto;
+    padding-top: auto;
+    font-style: italic;
+    color: rgb(229, 183, 218);
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.time{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+    border: 2px solid #d68afd;
+    border-radius: 7px;
+    border-width: 5px;
+    min-width: 100px;
+    color: #bf48fa;
+
+    
+}
+
+/* .count-down{
+    text-align: center;
+} */
+
+.footer{
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: darkcyan;
+    color: aliceblue;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+}
+
+#days{
+    font-size: 70px;
+    /* font-weight: 100; */
+    margin-bottom: auto;
+    
+    background-image: url(/Users/charlesliu/Desktop/CMPT-281/Assignment/A2-TimeCountDown_WebApp/img/CR1NYSpUcAAS5AK.png);
+    background-size:contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+span{
+    font-size: 20px;
+}
+
+.meme-image{
+    width: 30px; 
+    height: auto;
+    border-radius: 10px;
+}
+
+#inner_days{
+    font-size: 20px;
+    padding-top: 1px;
+    margin-top: 1px;
+}
