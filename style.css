@@ -2,18 +2,29 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(209, 244, 255);
+    background-color:rgb(237, 255, 242);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background-image: url(img/paBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 70px;
-    padding-top: 70px;
+    padding-top: 30px;
     font-style: italic;
-    color: rgb(255, 166, 234);
+    color: rgb(255, 208, 244);
     font-size: 90px;
+
+
+    text-shadow:
+    -4px -4px 0 #6fff48, /* Top-left shadow */
+     /* 4px -4px 0 #6fff48, Top-right shadow */
+    /* -4px  4px 0 #6fff48, Bottom-left shadow */
+     4px  4px 0 #6fff48; /* Bottom-right shadow */
+
 }
 h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -35,13 +46,15 @@ h3{
     border-width: 5px;
     min-width: 100px;
     color: #bf48fa;
+    background-color: rgb(218, 255, 210);
 
     
 }
 
-/* .count-down{
-    text-align: center;
-} */
+.count-down{
+
+    padding-bottom: 70px;
+}
 
 .footer{
 
@@ -50,8 +63,8 @@ h3{
     width: 100%;
     text-align: center;
     padding: 15px;
-    background-color: darkcyan;
-    color: aliceblue;
+    background-color: #d0fdc4;
+    color: rgb(170, 170, 170);
     /* margin-left: auto;
     margin-right: auto; */
 
@@ -62,7 +75,7 @@ h3{
     /* font-weight: 100; */
     margin-bottom: auto;
     
-    background-image: url(/Users/charlesliu/Desktop/CMPT-281/Assignment/A2-TimeCountDown_WebApp/img/CR1NYSpUcAAS5AK.png);
+    background-image: url(img/CR1NYSpUcAAS5AK.png);
     background-size:contain;
     background-position: bottom;
     background-repeat: no-repeat;
