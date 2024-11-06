@@ -15,10 +15,31 @@ window.onload = function(){
 
 
         //update the inner HTML
-        document.getElementById("days").innerHTML = day +  " <p id='inner_days'>Days</p><br>"
-        document.getElementById("hours").innerHTML = hours + " <span>Hours</span>"
-        document.getElementById("minutes").innerHTML = minutes + " <span>Min</span>"
-        document.getElementById("seconds").innerHTML = seconds + " <span>S</span>"
+        const DayEle = document.getElementById("days") 
+        const HourEle = document.getElementById("hours") 
+        const MinEle = document.getElementById("minutes") 
+        const SecEle = document.getElementById("seconds")
+
+        DayEle.innerHTML = day +  " <p id='inner_days'>Days</p><br>"
+        HourEle.innerHTML = hours + " <span>Hours</span>"
+        MinEle.innerHTML = minutes + " <span>Min</span>"
+        SecEle.innerHTML = seconds + " <span>S</span>"
+        const title = document.getElementById("webTilte")
+
+        // addAnimation(DayEle);
+        // addAnimation(HourEle);
+        // addAnimation(MinEle);
+        addAnimation(SecEle);
+        addAnimation(title)
 
     },1000);
+
+    
+
+    function addAnimation(element){
+        element.classList.add("changeAnimation");
+        setTimeout(()=>{
+            element.classList.remove("changeAnimation");
+        },300)
+    }
 }

@@ -83,3 +83,28 @@ span{
     padding-top: 1px;
     margin-top: 1px;
 }
+
+@keyframes scaleUp{
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.05);
+        color: aqua;
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    75% {
+        transform: scale(1.05);
+        color: yellowgreen;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.changeAnimation{
+    animation: scaleUp 0.3s ease-in-out;
+}
