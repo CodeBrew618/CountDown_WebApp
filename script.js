@@ -25,12 +25,14 @@ window.onload = function(){
         MinEle.innerHTML = minutes + " <span>Min</span>"
         SecEle.innerHTML = seconds + " <span>S</span>"
         const title = document.getElementById("webTilte")
+        const className = document.getElementById("ClassName")
 
         // addAnimation(DayEle);
         // addAnimation(HourEle);
         // addAnimation(MinEle);
         addAnimation(SecEle);
         addAnimation(title)
+        addAnimation(className)
 
     },1000);
 
